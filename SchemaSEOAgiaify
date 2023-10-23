@@ -1,0 +1,1926 @@
+"{
+  "tooljet_database": [],
+  "app": [
+    {
+      "definition": {
+        "appV2": {
+          "id": "ca7f43de-cba0-4d21-8632-5a679f2ead9d",
+          "type": "front-end",
+          "name": "Google AgiaiFy SEO App Generator",
+          "slug": "ca7f43de-cba0-4d21-8632-5a679f2ead9d",
+          "isPublic": false,
+          "isMaintenanceOn": false,
+          "icon": null,
+          "organizationId": "77635d6c-af3a-4862-9200-929aca3716d2",
+          "currentVersionId": null,
+          "userId": "dd348b67-b7aa-4d27-9f28-6748af630143",
+          "createdAt": "2023-10-23T08:07:52.688Z",
+          "updatedAt": "2023-10-23T08:11:59.289Z",
+          "editingVersion": {
+            "id": "0ceb15de-7168-427b-a66e-929f9bad191d",
+            "name": "v1",
+            "definition": {
+              "globalSettings": {
+                "hideHeader": false,
+                "canvasMaxWidth": 1292,
+                "canvasBackgroundColor": "#edeff5"
+              },
+              "homePageId": "9d414ce9-bd64-42d6-a5da-a14780ce3231",
+              "pages": {
+                "9d414ce9-bd64-42d6-a5da-a14780ce3231": {
+                  "name": "Home",
+                  "handle": "home",
+                  "components": {
+                    "219cc82f-8f81-4289-88cc-6308bb1ca54d": {
+                      "id": "219cc82f-8f81-4289-88cc-6308bb1ca54d",
+                      "component": {
+                        "name": "image3",
+                        "displayName": "Image",
+                        "description": "Display an Image",
+                        "defaultSize": {
+                          "width": 3,
+                          "height": 100
+                        },
+                        "component": "Image",
+                        "others": {
+                          "showOnDesktop": {
+                            "type": "toggle",
+                            "displayName": "Show on desktop"
+                          },
+                          "showOnMobile": {
+                            "type": "toggle",
+                            "displayName": "Show on mobile"
+                          }
+                        },
+                        "properties": {
+                          "source": {
+                            "type": "code",
+                            "displayName": "URL"
+                          }
+                        },
+                        "events": {
+                          "onClick": {
+                            "displayName": "On click"
+                          }
+                        },
+                        "styles": {
+                          "borderType": {
+                            "type": "select",
+                            "displayName": "Border type",
+                            "options": [
+                              {
+                                "name": "None",
+                                "value": "none"
+                              },
+                              {
+                                "name": "Rounded",
+                                "value": "rounded"
+                              },
+                              {
+                                "name": "Circle",
+                                "value": "rounded-circle"
+                              },
+                              {
+                                "name": "Thumbnail",
+                                "value": "img-thumbnail"
+                              }
+                            ]
+                          },
+                          "backgroundColor": {
+                            "type": "color",
+                            "displayName": "Background color"
+                          },
+                          "padding": {
+                            "type": "code",
+                            "displayName": "Padding"
+                          },
+                          "visibility": {
+                            "type": "code",
+                            "displayName": "Visibility"
+                          },
+                          "disabledState": {
+                            "type": "code",
+                            "displayName": "Disable"
+                          }
+                        },
+                        "exposedVariables": {},
+                        "definition": {
+                          "others": {
+                            "showOnDesktop": {
+                              "value": true
+                            },
+                            "showOnMobile": {
+                              "value": false
+                            }
+                          },
+                          "properties": {
+                            "source": {
+                              "value": "https://www.freepnglogos.com/uploads/company-logo-png/file-mobile-apps-development-company-logo-25.png"
+                            },
+                            "visible": {
+                              "value": true
+                            }
+                          },
+                          "events": [],
+                          "styles": {
+                            "borderType": {
+                              "value": "none"
+                            },
+                            "padding": {
+                              "value": "0"
+                            },
+                            "visibility": {
+                              "value": "{{true}}"
+                            },
+                            "disabledState": {
+                              "value": "{{false}}"
+                            }
+                          }
+                        }
+                      },
+                      "layouts": {
+                        "desktop": {
+                          "top": 0,
+                          "left": 2.3146358114333108,
+                          "width": 4.010077519379845,
+                          "height": 70
+                        }
+                      }
+                    },
+                    "5e6dd60d-27de-464b-9d1b-d77577b0ca02": {
+                      "id": "5e6dd60d-27de-464b-9d1b-d77577b0ca02",
+                      "component": {
+                        "name": "text7",
+                        "displayName": "Text",
+                        "description": "Display markdown or HTML",
+                        "component": "Text",
+                        "others": {
+                          "showOnDesktop": {
+                            "type": "toggle",
+                            "displayName": "Show on desktop"
+                          },
+                          "showOnMobile": {
+                            "type": "toggle",
+                            "displayName": "Show on mobile"
+                          }
+                        },
+                        "properties": {
+                          "text": {
+                            "type": "code",
+                            "displayName": "Text"
+                          },
+                          "loadingState": {
+                            "type": "code",
+                            "displayName": "Show loading state"
+                          }
+                        },
+                        "defaultSize": {
+                          "width": 5,
+                          "height": 30
+                        },
+                        "events": [],
+                        "styles": {
+                          "textColor": {
+                            "type": "color",
+                            "displayName": "Text Color"
+                          },
+                          "textAlign": {
+                            "type": "alignButtons",
+                            "displayName": "Align Text"
+                          },
+                          "visibility": {
+                            "type": "code",
+                            "displayName": "Visibility"
+                          },
+                          "disabledState": {
+                            "type": "code",
+                            "displayName": "Disable"
+                          }
+                        },
+                        "exposedVariables": {},
+                        "definition": {
+                          "others": {
+                            "showOnDesktop": {
+                              "value": true
+                            },
+                            "showOnMobile": {
+                              "value": false
+                            }
+                          },
+                          "properties": {
+                            "text": {
+                              "value": "<h1>Company-wide KPI dashboard</h1>"
+                            },
+                            "visible": {
+                              "value": true
+                            },
+                            "loadingState": {
+                              "value": "{{false}}"
+                            }
+                          },
+                          "events": [],
+                          "styles": {
+                            "groupActions": {
+                              "value": "left"
+                            },
+                            "textColor": {
+                              "value": "",
+                              "fxActive": true
+                            },
+                            "textAlign": {
+                              "value": "left"
+                            },
+                            "visibility": {
+                              "value": "{{true}}"
+                            },
+                            "disabledState": {
+                              "value": "{{false}}"
+                            }
+                          }
+                        }
+                      },
+                      "layouts": {
+                        "desktop": {
+                          "top": 80,
+                          "left": 2.3327995749080883,
+                          "width": 11.994521883576484,
+                          "height": 60
+                        }
+                      }
+                    },
+                    "89641d39-ede8-4914-9fc8-df48573249d4": {
+                      "id": "89641d39-ede8-4914-9fc8-df48573249d4",
+                      "component": {
+                        "name": "button2",
+                        "displayName": "Button",
+                        "description": "Trigger actions: queries, alerts etc",
+                        "component": "Button",
+                        "defaultSize": {
+                          "width": 3,
+                          "height": 30
+                        },
+                        "others": {
+                          "showOnDesktop": {
+                            "type": "toggle",
+                            "displayName": "Show on desktop"
+                          },
+                          "showOnMobile": {
+                            "type": "toggle",
+                            "displayName": "Show on mobile"
+                          }
+                        },
+                        "properties": {
+                          "text": {
+                            "type": "code",
+                            "displayName": "Button Text"
+                          },
+                          "loadingState": {
+                            "type": "code",
+                            "displayName": "Loading State"
+                          }
+                        },
+                        "events": {
+                          "onClick": {
+                            "displayName": "On click"
+                          }
+                        },
+                        "styles": {
+                          "backgroundColor": {
+                            "type": "color",
+                            "displayName": "Background color"
+                          },
+                          "textColor": {
+                            "type": "color",
+                            "displayName": "Text color"
+                          },
+                          "visibility": {
+                            "type": "code",
+                            "displayName": "Visibility"
+                          },
+                          "disabledState": {
+                            "type": "code",
+                            "displayName": "Disable"
+                          },
+                          "borderRadius": {
+                            "type": "code",
+                            "displayName": "Border radius"
+                          }
+                        },
+                        "exposedVariables": {},
+                        "definition": {
+                          "others": {
+                            "showOnDesktop": {
+                              "value": true
+                            },
+                            "showOnMobile": {
+                              "value": false
+                            }
+                          },
+                          "properties": {
+                            "text": {
+                              "value": "Refresh"
+                            },
+                            "visible": {
+                              "value": true
+                            },
+                            "loadingState": {
+                              "value": "{{queries.airtable2.isLoading}}"
+                            }
+                          },
+                          "events": [
+                            {
+                              "eventId": "onClick",
+                              "actionId": "run-query",
+                              "message": "Hello world!",
+                              "alertType": "info",
+                              "queryName": "airtable1"
+                            },
+                            {
+                              "eventId": "onClick",
+                              "actionId": "run-query",
+                              "message": "Hello world!",
+                              "alertType": "info",
+                              "queryName": "airtable2"
+                            },
+                            {
+                              "eventId": "onClick",
+                              "actionId": "run-query",
+                              "message": "Hello world!",
+                              "alertType": "info",
+                              "queryName": "airtable3"
+                            }
+                          ],
+                          "styles": {
+                            "backgroundColor": {
+                              "value": "",
+                              "fxActive": true
+                            },
+                            "textColor": {
+                              "value": "#fff"
+                            },
+                            "visibility": {
+                              "value": "{{true}}"
+                            },
+                            "borderRadius": {
+                              "value": "{{15}}"
+                            },
+                            "disabledState": {
+                              "value": "{{false}}"
+                            }
+                          }
+                        }
+                      },
+                      "layouts": {
+                        "desktop": {
+                          "top": 100,
+                          "left": 90.69767529750386,
+                          "width": 3,
+                          "height": 30
+                        }
+                      }
+                    },
+                    "467b0e6c-a7c5-4a9a-9862-57fd3c1999f8": {
+                      "id": "467b0e6c-a7c5-4a9a-9862-57fd3c1999f8",
+                      "component": {
+                        "name": "statistics3",
+                        "displayName": "Statistics",
+                        "description": "Statistics can be used to display different statistical information",
+                        "component": "Statistics",
+                        "defaultSize": {
+                          "width": 9.2,
+                          "height": 152
+                        },
+                        "others": {
+                          "showOnDesktop": {
+                            "type": "toggle",
+                            "displayName": "Show on desktop"
+                          },
+                          "showOnMobile": {
+                            "type": "toggle",
+                            "displayName": "Show on mobile"
+                          }
+                        },
+                        "properties": {
+                          "primaryValueLabel": {
+                            "type": "code",
+                            "displayName": "Primary value label"
+                          },
+                          "primaryValue": {
+                            "type": "code",
+                            "displayName": "Primary value"
+                          },
+                          "secondaryValueLabel": {
+                            "type": "code",
+                            "displayName": "Secondary value label"
+                          },
+                          "secondaryValue": {
+                            "type": "code",
+                            "displayName": "Secondary value"
+                          },
+                          "secondarySignDisplay": {
+                            "type": "code",
+                            "displayName": "Secondary sign display"
+                          }
+                        },
+                        "events": {},
+                        "styles": {
+                          "primaryLabelColour": {
+                            "type": "color",
+                            "displayName": "Primary Label Colour"
+                          },
+                          "primaryTextColour": {
+                            "type": "color",
+                            "displayName": "Primary Text  Colour"
+                          },
+                          "secondaryLabelColour": {
+                            "type": "color",
+                            "displayName": "Secondary Label Colour"
+                          },
+                          "secondaryTextColour": {
+                            "type": "color",
+                            "displayName": "Secondary Text Colour"
+                          },
+                          "visibility": {
+                            "type": "code",
+                            "displayName": "Visibility"
+                          }
+                        },
+                        "definition": {
+                          "others": {
+                            "showOnDesktop": {
+                              "value": true
+                            },
+                            "showOnMobile": {
+                              "value": false
+                            }
+                          },
+                          "properties": {
+                            "primaryValueLabel": {
+                              "value": "MoM Revenue"
+                            },
+                            "primaryValue": {
+                              "value": "-500 USD"
+                            },
+                            "secondaryValueLabel": {
+                              "value": "Last month"
+                            },
+                            "secondaryValue": {
+                              "value": "5%"
+                            },
+                            "secondarySignDisplay": {
+                              "value": "negative"
+                            }
+                          },
+                          "events": [],
+                          "styles": {
+                            "primaryLabelColour": {
+                              "value": "#8092AB"
+                            },
+                            "primaryTextColour": {
+                              "value": "#000000"
+                            },
+                            "secondaryLabelColour": {
+                              "value": "#8092AB"
+                            },
+                            "secondaryTextColour": {
+                              "value": "#36AF8B"
+                            },
+                            "visibility": {
+                              "value": "{{true}}"
+                            }
+                          }
+                        }
+                      },
+                      "layouts": {
+                        "desktop": {
+                          "top": 150,
+                          "left": 2.325579994603207,
+                          "width": 13,
+                          "height": 160
+                        }
+                      }
+                    },
+                    "6aaae3ea-c857-4d0b-beba-dfcc67e917d6": {
+                      "id": "6aaae3ea-c857-4d0b-beba-dfcc67e917d6",
+                      "component": {
+                        "name": "statistics4",
+                        "displayName": "Statistics",
+                        "description": "Statistics can be used to display different statistical information",
+                        "component": "Statistics",
+                        "defaultSize": {
+                          "width": 9.2,
+                          "height": 152
+                        },
+                        "others": {
+                          "showOnDesktop": {
+                            "type": "toggle",
+                            "displayName": "Show on desktop"
+                          },
+                          "showOnMobile": {
+                            "type": "toggle",
+                            "displayName": "Show on mobile"
+                          }
+                        },
+                        "properties": {
+                          "primaryValueLabel": {
+                            "type": "code",
+                            "displayName": "Primary value label"
+                          },
+                          "primaryValue": {
+                            "type": "code",
+                            "displayName": "Primary value"
+                          },
+                          "secondaryValueLabel": {
+                            "type": "code",
+                            "displayName": "Secondary value label"
+                          },
+                          "secondaryValue": {
+                            "type": "code",
+                            "displayName": "Secondary value"
+                          },
+                          "secondarySignDisplay": {
+                            "type": "code",
+                            "displayName": "Secondary sign display"
+                          }
+                        },
+                        "events": {},
+                        "styles": {
+                          "primaryLabelColour": {
+                            "type": "color",
+                            "displayName": "Primary Label Colour"
+                          },
+                          "primaryTextColour": {
+                            "type": "color",
+                            "displayName": "Primary Text  Colour"
+                          },
+                          "secondaryLabelColour": {
+                            "type": "color",
+                            "displayName": "Secondary Label Colour"
+                          },
+                          "secondaryTextColour": {
+                            "type": "color",
+                            "displayName": "Secondary Text Colour"
+                          },
+                          "visibility": {
+                            "type": "code",
+                            "displayName": "Visibility"
+                          }
+                        },
+                        "definition": {
+                          "others": {
+                            "showOnDesktop": {
+                              "value": true
+                            },
+                            "showOnMobile": {
+                              "value": false
+                            }
+                          },
+                          "properties": {
+                            "primaryValueLabel": {
+                              "value": "MoM new users"
+                            },
+                            "primaryValue": {
+                              "value": "2500"
+                            },
+                            "secondaryValueLabel": {
+                              "value": "Last month"
+                            },
+                            "secondaryValue": {
+                              "value": "28%"
+                            },
+                            "secondarySignDisplay": {
+                              "value": "positive"
+                            }
+                          },
+                          "events": [],
+                          "styles": {
+                            "primaryLabelColour": {
+                              "value": "#8092AB"
+                            },
+                            "primaryTextColour": {
+                              "value": "#000000"
+                            },
+                            "secondaryLabelColour": {
+                              "value": "#8092AB"
+                            },
+                            "secondaryTextColour": {
+                              "value": "#36AF8B"
+                            },
+                            "visibility": {
+                              "value": "{{true}}"
+                            }
+                          }
+                        }
+                      },
+                      "layouts": {
+                        "desktop": {
+                          "top": 338,
+                          "left": 2.3255812707213304,
+                          "width": 13,
+                          "height": 170
+                        }
+                      }
+                    },
+                    "b3a451a1-800a-4d2b-9733-21074f4f19f4": {
+                      "id": "b3a451a1-800a-4d2b-9733-21074f4f19f4",
+                      "component": {
+                        "name": "chart3",
+                        "displayName": "Chart",
+                        "description": "Display charts",
+                        "component": "Chart",
+                        "defaultSize": {
+                          "width": 20,
+                          "height": 400
+                        },
+                        "others": {
+                          "showOnDesktop": {
+                            "type": "toggle",
+                            "displayName": "Show on desktop"
+                          },
+                          "showOnMobile": {
+                            "type": "toggle",
+                            "displayName": "Show on mobile"
+                          }
+                        },
+                        "properties": {
+                          "title": {
+                            "type": "code",
+                            "displayName": "Title"
+                          },
+                          "data": {
+                            "type": "json",
+                            "displayName": "Data"
+                          },
+                          "loadingState": {
+                            "type": "code",
+                            "displayName": "Loading State"
+                          },
+                          "markerColor": {
+                            "type": "color",
+                            "displayName": "Marker color"
+                          },
+                          "showAxes": {
+                            "type": "toggle",
+                            "displayName": "Show axes"
+                          },
+                          "showGridLines": {
+                            "type": "toggle",
+                            "displayName": "Show grid lines"
+                          },
+                          "type": {
+                            "type": "select",
+                            "displayName": "Chart type",
+                            "options": [
+                              {
+                                "name": "Line",
+                                "value": "line"
+                              },
+                              {
+                                "name": "Bar",
+                                "value": "bar"
+                              },
+                              {
+                                "name": "Pie",
+                                "value": "pie"
+                              }
+                            ]
+                          },
+                          "jsonDescription": {
+                            "type": "json",
+                            "displayName": "Json Description"
+                          },
+                          "plotFromJson": {
+                            "type": "toggle",
+                            "displayName": "Use Plotly JSON schema"
+                          }
+                        },
+                        "events": {},
+                        "styles": {
+                          "padding": {
+                            "type": "code",
+                            "displayName": "Padding"
+                          },
+                          "visibility": {
+                            "type": "code",
+                            "displayName": "Visibility"
+                          },
+                          "disabledState": {
+                            "type": "code",
+                            "displayName": "Disable"
+                          }
+                        },
+                        "exposedVariables": {
+                          "show": null
+                        },
+                        "definition": {
+                          "others": {
+                            "showOnDesktop": {
+                              "value": true
+                            },
+                            "showOnMobile": {
+                              "value": false
+                            }
+                          },
+                          "properties": {
+                            "title": {
+                              "value": "New Subscriptions"
+                            },
+                            "markerColor": {
+                              "value": "#b06cecff"
+                            },
+                            "showAxes": {
+                              "value": true
+                            },
+                            "showGridLines": {
+                              "value": true
+                            },
+                            "plotFromJson": {
+                              "value": "{{true}}"
+                            },
+                            "loadingState": {
+                              "value": "{{false}}"
+                            },
+                            "jsonDescription": {
+                              "value": "{\n    \"data\": [\n    {\n    \"y\": [\n    2.143298776630495,\n    1.546437498536346,\n    3.1996026127943633,\n    -3.2721650039744277,\n    -1.7378623476100585,\n    -2.5941532378644188,\n    1.1336988134622026,\n    0.39713737515117814,\n    -0.27839421470206477,\n    3.9406531966094187\n    ],\n    \"name\": \"450\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(223, 32, 190)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    -0.5513570147410131,\n    1.6941884418515312,\n    -1.035989600357754,\n    -1.6734746830784588,\n    -0.1903379250550108,\n    0.42160414146603786,\n    -0.5683499968674645,\n    0.7828243804727615,\n    -2.738657648646538,\n    -0.4024106513052623\n    ],\n    \"name\": \"457\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(217, 32, 223)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    -1.3901652371943087,\n    2.4214887682900743,\n    1.147569881528752,\n    2.2351841831713792,\n    -0.24820700567182885,\n    -1.6126248595047912,\n    -0.015222585493234297,\n    -1.7751807888116073,\n    4.415229463381031,\n    -1.4285566690889238\n    ],\n    \"name\": \"465\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(177, 32, 223)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    0.4975138182534743,\n    1.215757991855703,\n    -0.04780629861353569,\n    0.0014301521180146715,\n    -0.011693084658796149,\n    -2.906881977464424,\n    4.8510748670522705,\n    0.8040846867796213,\n    -1.4106428462482774,\n    2.3887864346532606\n    ],\n    \"name\": \"472\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(137, 32, 223)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    5.309088102098384,\n    1.5954979624142749,\n    1.1399594723769164,\n    1.2685192423716043,\n    1.9891077747658914,\n    4.479183247169927,\n    -0.4656503273673507,\n    3.5133936404325956,\n    1.2851237031303082,\n    1.065354380602242\n    ],\n    \"name\": \"480\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(98, 32, 223)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    1.793070030728234,\n    3.29213458092582,\n    2.1625259961030734,\n    0.9007411507925231,\n    -0.916683837898133,\n    5.4977152470055,\n    1.6836217999830234,\n    3.380671777397879,\n    4.165609313750686,\n    1.0184343366894293\n    ],\n    \"name\": \"487\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(58, 32, 223)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    3.235861441555429,\n    2.1411292546692486,\n    3.8381308213835887,\n    2.727752293571505,\n    4.017975902072184,\n    0.5695736013091188,\n    1.535514508643867,\n    1.6962832108823964,\n    0.28895804542641246,\n    2.5786826869714696\n    ],\n    \"name\": \"495\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(32, 45, 223)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    -0.016115579695300752,\n    2.531199154443878,\n    2.188462171876345,\n    1.8555942771726135,\n    0.2876025775176916,\n    2.5299915024344273,\n    2.56353105045906,\n    -0.04959351109352372,\n    5.0485171134766444,\n    2.6482490469234374\n    ],\n    \"name\": \"503\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(32, 85, 223)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    2.4365302731146445,\n    0.7848896009704163,\n    0.36007001248524295,\n    3.357942698060853,\n    3.7843191029141785,\n    2.3943649408085133,\n    5.803538252311307,\n    3.9205732619959197,\n    1.1238016024864932,\n    0.02428909483070507\n    ],\n    \"name\": \"510\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(32, 124, 223)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    4.7441997160566345,\n    0.7515838547336324,\n    1.8461593107504688,\n    4.937748255274713,\n    2.464649682835375,\n    3.5933123140369934,\n    4.568459375427043,\n    5.322171359439542,\n    0.980257484548269,\n    4.9888859397884975\n    ],\n    \"name\": \"518\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(32, 164, 223)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    4.107617413889171,\n    1.823598893064229,\n    4.442565600424697,\n    4.4215444267782935,\n    2.3597001037476826,\n    1.5009649279909203,\n    3.428920172680855,\n    3.696492763065793,\n    1.8448075591657191,\n    4.674810996174651\n    ],\n    \"name\": \"525\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(32, 203, 223)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    3.6559413766345292,\n    5.218123953992757,\n    4.082994231037061,\n    4.724350438211446,\n    6.520301038717292,\n    4.0269504946482355,\n    2.111689104940635,\n    3.426173805884625,\n    2.4041213983920686,\n    3.7558771830255986\n    ],\n    \"name\": \"533\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(32, 223, 203)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    3.6207323323056206,\n    2.92217135200816,\n    4.457314990351299,\n    4.738588564045884,\n    2.2502191884477187,\n    3.0920972252203103,\n    1.7770707068519265,\n    3.082033226287514,\n    1.266449386074287,\n    6.162474112512239\n    ],\n    \"name\": \"541\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(32, 223, 164)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    1.2002602313809807,\n    4.326957937078774,\n    3.831624202706361,\n    6.470696868730711,\n    8.385697218240262,\n    3.378927427138537,\n    1.0100011719208175,\n    3.059657183194205,\n    3.45662135588293,\n    1.8005146791153082\n    ],\n    \"name\": \"548\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(32, 223, 124)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    3.916814324730089,\n    1.1822314723354634,\n    2.6838499750862366,\n    3.9047897374529525,\n    3.2646310457952747,\n    3.494345580357663,\n    4.85068215147808,\n    3.21632919185715,\n    4.543453196746212,\n    4.304948860307396\n    ],\n    \"name\": \"556\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(32, 223, 85)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    7.188869064393717,\n    2.969613080027406,\n    2.861887894692491,\n    1.9339807896829542,\n    5.916747428886293,\n    3.7862988306773264,\n    3.365480207639184,\n    4.840355678120315,\n    5.467164053423591,\n    5.102661041557068\n    ],\n    \"name\": \"563\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(32, 223, 45)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    2.023828346393208,\n    4.3933555087541585,\n    6.172651079392306,\n    3.2182077662451865,\n    4.890593997097495,\n    0.19897657320179274,\n    4.3726706934050625,\n    4.245739954374094,\n    3.3852788348198035,\n    4.873691579297628\n    ],\n    \"name\": \"571\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(58, 223, 32)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    1.3883512495925547,\n    2.8579471237790264,\n    4.8663809840475984,\n    5.1951118805760625,\n    4.205722291898466,\n    4.5553567442938085,\n    6.200717614751488,\n    4.708467697352261,\n    4.357794178274319,\n    3.6873288890259586\n    ],\n    \"name\": \"578\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(98, 223, 32)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    5.023381822090899,\n    2.4160739470924977,\n    6.839803818089738,\n    3.8121261015654513,\n    2.266919394391742,\n    4.223121388019584,\n    2.358904599837688,\n    5.479564877537197,\n    4.372792152115252,\n    4.078049952346909\n    ],\n    \"name\": \"586\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(137, 223, 32)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    4.364265628125186,\n    3.637151936860906,\n    4.340102390620965,\n    3.8253415529586503,\n    3.84445134734876,\n    2.789086489665339,\n    2.990753771535526,\n    2.2238138482703986,\n    4.067840176264388,\n    3.390657214377273\n    ],\n    \"name\": \"594\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(177, 223, 32)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    3.944128530705616,\n    4.299027748180328,\n    3.559320048683847,\n    3.953395160076097,\n    4.951561324824724,\n    0.28423798817635415,\n    1.703079084515436,\n    2.1233249084555856,\n    4.50899816468616,\n    2.90914860672678\n    ],\n    \"name\": \"601\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(217, 223, 32)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    1.4987245004945127,\n    3.4988764107954573,\n    1.035666193651728,\n    3.698078313017795,\n    2.8601991008463807,\n    4.59108686634301,\n    1.6416602569201257,\n    2.620692910978377,\n    4.352271873131939,\n    3.387796281522468\n    ],\n    \"name\": \"609\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(223, 190, 32)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    3.886588759281743,\n    4.09639467114146,\n    3.781059716978851,\n    3.8506624719056455,\n    3.2983203880390692,\n    2.7906038044537773,\n    1.9089288355943315,\n    3.741375625088334,\n    4.7920177887664,\n    3.8756714538590957\n    ],\n    \"name\": \"616\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(223, 151, 32)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    3.7930929392545725,\n    2.9595815901683897,\n    4.278816973575015,\n    4.12873578159929,\n    3.2452722246603787,\n    2.2228796432055917,\n    3.1117613387871432,\n    4.700202930162271,\n    3.7364376410841977,\n    2.624246824503665\n    ],\n    \"name\": \"624\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(223, 111, 32)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    2.688817168538662,\n    2.2647900378206796,\n    2.794030735666634,\n    2.5557136986888924,\n    3.2975536939952153,\n    1.464310183835455,\n    4.79675367384749,\n    2.721293236786012,\n    1.3407340944698982,\n    2.7925891550565827\n    ],\n    \"name\": \"632\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(223, 71, 32)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    3.302664391056707,\n    3.8779275997242513,\n    2.5606073377558447,\n    2.172284155005903,\n    4.986094304920282,\n    2.585843158431967,\n    1.55578389553859,\n    1.9354736601919273,\n    1.6906489597225358,\n    3.8132044950220774\n    ],\n    \"name\": \"639\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(223, 32, 32)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    1.2757796572946754,\n    3.5749547405713544,\n    2.213564040974323,\n    2.622646077414124,\n    1.9695916314640103,\n    2.237719685949837,\n    3.5117622169738114,\n    1.9529579923485183,\n    1.9350848528531803,\n    1.9228718838389787\n    ],\n    \"name\": \"647\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(223, 32, 32)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    2.112951496740204,\n    3.9406157111578675,\n    2.2747354097753396,\n    3.8932852199747097,\n    0.7139956340270186,\n    1.5278830689466767,\n    2.401168983865303,\n    3.281033802949576,\n    1.565578801322196,\n    2.7721094415950764\n    ],\n    \"name\": \"654\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(223, 32, 71)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    0.12123446809023997,\n    3.3306394911873394,\n    0.38816372142868594,\n    2.4404379445719204,\n    0.5699057463324029,\n    2.1574477293800833,\n    4.342293935187394,\n    1.126581491394398,\n    0.03028431816905841,\n    -0.769753202505036\n    ],\n    \"name\": \"662\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(223, 32, 111)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    },\n    {\n    \"y\": [\n    0.9002461908620343,\n    0.8892524414281886,\n    2.4450446737565454,\n    2.4648528013844877,\n    0.8404729335174261,\n    0.6925337622570281,\n    0.5882537991503783,\n    1.2618587377404258,\n    1.388487877092837,\n    1.565283315273657\n    ],\n    \"name\": \"670\",\n    \"boxpoints\": false,\n    \"whiskerwidth\": 0.75,\n    \"marker\": {\n    \"color\": \"rgb(223, 32, 151)\"\n    },\n    \"line\": {\n    \"width\": 1\n    },\n    \"type\": \"box\"\n    }\n    ],\n    \"layout\": {\n    \"title\": {\n    \"text\": \"Spectral<br>Box Plot\",\n    \"font\": {\n    \"size\": 18\n    }\n    },\n    \"font\": {\n    \"family\": \"Arial, sans-serif\",\n    \"size\": 12,\n    \"color\": \"rgb(67, 67, 67)\"\n    },\n    \"showlegend\": false,\n    \"autosize\": false,\n    \"width\": 600,\n    \"height\": 400,\n    \"xaxis\": {\n    \"range\": [\n    -0.5,\n    29.5\n    ],\n    \"domain\": [\n    0,\n    1\n    ],\n    \"type\": \"category\",\n    \"showgrid\": false,\n    \"zeroline\": true,\n    \"showline\": false,\n    \"ticks\": \"\",\n    \"showticklabels\": true,\n    \"tick0\": 0,\n    \"dtick\": 1,\n    \"tickangle\": 90,\n    \"zerolinecolor\": \"#000\",\n    \"zerolinewidth\": 1,\n    \"anchor\": \"y\",\n    \"autorange\": true\n    },\n    \"yaxis\": {\n    \"range\": [\n    -3.919824016319688,\n    9.033356230585522\n    ],\n    \"domain\": [\n    0,\n    1\n    ],\n    \"type\": \"linear\",\n    \"showgrid\": true,\n    \"zeroline\": false,\n    \"showline\": false,\n    \"ticks\": \"\",\n    \"showticklabels\": true,\n    \"tick0\": 0,\n    \"dtick\": 2,\n    \"tickangle\": 0,\n    \"gridcolor\": \"rgb(255, 255, 255)\",\n    \"gridwidth\": 1.5,\n    \"anchor\": \"x\",\n    \"autorange\": true\n    },\n    \"margin\": {\n    \"l\": 50,\n    \"r\": 20,\n    \"b\": 70,\n    \"t\": 40,\n    \"pad\": 2,\n    \"autoexpand\": true\n    },\n    \"paper_bgcolor\": \"rgb(233, 233, 233)\",\n    \"plot_bgcolor\": \"rgb(233, 233, 233)\",\n    \"hovermode\": \"x\",\n    \"dragmode\": \"zoom\",\n    \"boxmode\": \"overlay\",\n    \"separators\": \".,\",\n    \"hidesources\": false\n    }\n    }"
+                            },
+                            "type": {
+                              "value": "line"
+                            },
+                            "data": {
+                              "value": "[\n  { \"x\": \"Jan\", \"y\": 100},\n  { \"x\": \"Feb\", \"y\": 80},\n  { \"x\": \"Mar\", \"y\": 40},\n    { \"x\": \"Jan\", \"y\": 100},\n  { \"x\": \"Feb\", \"y\": 80},\n  { \"x\": \"Mar\", \"y\": 40},\n    { \"x\": \"Jan\", \"y\": 100},\n  { \"x\": \"Feb\", \"y\": 80},\n  { \"x\": \"Mar\", \"y\": 40}\n]"
+                            }
+                          },
+                          "events": [],
+                          "styles": {
+                            "padding": {
+                              "value": "50"
+                            },
+                            "visibility": {
+                              "value": "{{true}}"
+                            },
+                            "disabledState": {
+                              "value": "{{false}}"
+                            }
+                          }
+                        }
+                      },
+                      "layouts": {
+                        "desktop": {
+                          "top": 54,
+                          "left": 34.98137782727245,
+                          "width": 28,
+                          "height": 350
+                        }
+                      }
+                    },
+                    "0d607ce6-9668-4884-8522-227fe2c95454": {
+                      "id": "0d607ce6-9668-4884-8522-227fe2c95454",
+                      "component": {
+                        "name": "container4",
+                        "displayName": "Container",
+                        "description": "Wrapper for multiple components",
+                        "defaultSize": {
+                          "width": 5,
+                          "height": 200
+                        },
+                        "component": "Container",
+                        "others": {
+                          "showOnDesktop": {
+                            "type": "toggle",
+                            "displayName": "Show on desktop"
+                          },
+                          "showOnMobile": {
+                            "type": "toggle",
+                            "displayName": "Show on mobile"
+                          }
+                        },
+                        "properties": {},
+                        "events": {},
+                        "styles": {
+                          "backgroundColor": {
+                            "type": "color"
+                          },
+                          "borderRadius": {
+                            "type": "code",
+                            "displayName": "Border Radius"
+                          },
+                          "visibility": {
+                            "type": "code",
+                            "displayName": "Visibility"
+                          },
+                          "disabledState": {
+                            "type": "code",
+                            "displayName": "Disable"
+                          }
+                        },
+                        "exposedVariables": {},
+                        "definition": {
+                          "others": {
+                            "showOnDesktop": {
+                              "value": true
+                            },
+                            "showOnMobile": {
+                              "value": false
+                            }
+                          },
+                          "properties": {
+                            "visible": {
+                              "value": true
+                            }
+                          },
+                          "events": [],
+                          "styles": {
+                            "backgroundColor": {
+                              "value": "#1b2755ff"
+                            },
+                            "borderRadius": {
+                              "value": "15"
+                            },
+                            "visibility": {
+                              "value": "{{true}}"
+                            },
+                            "disabledState": {
+                              "value": "{{false}}"
+                            }
+                          }
+                        }
+                      },
+                      "layouts": {
+                        "desktop": {
+                          "top": 520,
+                          "left": 2.332798393887263,
+                          "width": 13,
+                          "height": 350
+                        }
+                      }
+                    },
+                    "271e01f2-6c62-46a1-a5bb-abcd375b0336": {
+                      "id": "271e01f2-6c62-46a1-a5bb-abcd375b0336",
+                      "component": {
+                        "name": "circularprogressbar1",
+                        "displayName": "Circular Progressbar",
+                        "description": "Show the progress using circular progressbar",
+                        "component": "CircularProgressBar",
+                        "defaultSize": {
+                          "width": 2,
+                          "height": 50
+                        },
+                        "others": {
+                          "showOnDesktop": {
+                            "type": "toggle",
+                            "displayName": "Show on desktop"
+                          },
+                          "showOnMobile": {
+                            "type": "toggle",
+                            "displayName": "Show on mobile"
+                          }
+                        },
+                        "properties": {
+                          "text": {
+                            "type": "code",
+                            "displayName": "Text"
+                          },
+                          "progress": {
+                            "type": "code",
+                            "displayName": "Progress"
+                          }
+                        },
+                        "events": {},
+                        "styles": {
+                          "color": {
+                            "type": "color",
+                            "displayName": "Color"
+                          },
+                          "textColor": {
+                            "type": "color",
+                            "displayName": "Text Color"
+                          },
+                          "textSize": {
+                            "type": "code",
+                            "displayName": "Text Size"
+                          },
+                          "strokeWidth": {
+                            "type": "code",
+                            "displayName": "Stroke Width"
+                          },
+                          "counterClockwise": {
+                            "type": "code",
+                            "displayName": "Counter Clockwise"
+                          },
+                          "circleRatio": {
+                            "type": "code",
+                            "displayName": "Circle Ratio"
+                          },
+                          "visibility": {
+                            "type": "code",
+                            "displayName": "Visibility"
+                          }
+                        },
+                        "exposedVariables": {},
+                        "definition": {
+                          "others": {
+                            "showOnDesktop": {
+                              "value": true
+                            },
+                            "showOnMobile": {
+                              "value": false
+                            }
+                          },
+                          "properties": {
+                            "text": {
+                              "value": "12.5"
+                            },
+                            "progress": {
+                              "value": "12.5"
+                            }
+                          },
+                          "events": [],
+                          "styles": {
+                            "color": {
+                              "value": "#5fa8ffff"
+                            },
+                            "textColor": {
+                              "value": "#ffffffff"
+                            },
+                            "textSize": {
+                              "value": "{{20}}"
+                            },
+                            "strokeWidth": {
+                              "value": "{{8}}"
+                            },
+                            "counterClockwise": {
+                              "value": "{{false}}"
+                            },
+                            "circleRatio": {
+                              "value": "{{1}}"
+                            },
+                            "visibility": {
+                              "value": "{{true}}"
+                            }
+                          }
+                        }
+                      },
+                      "layouts": {
+                        "desktop": {
+                          "top": 110,
+                          "left": 38.738603826136476,
+                          "width": 26.067970755568766,
+                          "height": 180
+                        }
+                      },
+                      "parent": "0d607ce6-9668-4884-8522-227fe2c95454"
+                    },
+                    "f5bf08b6-bb0e-4600-89a7-53dfe88b8885": {
+                      "id": "f5bf08b6-bb0e-4600-89a7-53dfe88b8885",
+                      "component": {
+                        "name": "text2",
+                        "displayName": "Text",
+                        "description": "Display markdown or HTML",
+                        "component": "Text",
+                        "others": {
+                          "showOnDesktop": {
+                            "type": "toggle",
+                            "displayName": "Show on desktop"
+                          },
+                          "showOnMobile": {
+                            "type": "toggle",
+                            "displayName": "Show on mobile"
+                          }
+                        },
+                        "properties": {
+                          "text": {
+                            "type": "code",
+                            "displayName": "Text"
+                          },
+                          "loadingState": {
+                            "type": "code",
+                            "displayName": "Show loading state"
+                          }
+                        },
+                        "defaultSize": {
+                          "width": 5,
+                          "height": 30
+                        },
+                        "events": [],
+                        "styles": {
+                          "textColor": {
+                            "type": "color",
+                            "displayName": "Text Color"
+                          },
+                          "textAlign": {
+                            "type": "alignButtons",
+                            "displayName": "Align Text"
+                          },
+                          "visibility": {
+                            "type": "code",
+                            "displayName": "Visibility"
+                          },
+                          "disabledState": {
+                            "type": "code",
+                            "displayName": "Disable"
+                          }
+                        },
+                        "exposedVariables": {},
+                        "definition": {
+                          "others": {
+                            "showOnDesktop": {
+                              "value": true
+                            },
+                            "showOnMobile": {
+                              "value": false
+                            }
+                          },
+                          "properties": {
+                            "text": {
+                              "value": "<h1>Monthly Profits</h1>"
+                            },
+                            "visible": {
+                              "value": true
+                            },
+                            "loadingState": {
+                              "value": "{{false}}"
+                            }
+                          },
+                          "events": [],
+                          "styles": {
+                            "groupActions": {
+                              "value": "left"
+                            },
+                            "textColor": {
+                              "value": "#ffffffff"
+                            },
+                            "textAlign": {
+                              "value": "left"
+                            },
+                            "visibility": {
+                              "value": "{{true}}"
+                            },
+                            "disabledState": {
+                              "value": "{{false}}"
+                            }
+                          }
+                        }
+                      },
+                      "layouts": {
+                        "desktop": {
+                          "top": 20,
+                          "left": 4.114528002827358,
+                          "width": 20.960370782665667,
+                          "height": 40
+                        }
+                      },
+                      "parent": "0d607ce6-9668-4884-8522-227fe2c95454"
+                    },
+                    "c467c18c-3a96-4951-a40b-bc7ecb0715b9": {
+                      "id": "c467c18c-3a96-4951-a40b-bc7ecb0715b9",
+                      "component": {
+                        "name": "text3",
+                        "displayName": "Text",
+                        "description": "Display markdown or HTML",
+                        "component": "Text",
+                        "others": {
+                          "showOnDesktop": {
+                            "type": "toggle",
+                            "displayName": "Show on desktop"
+                          },
+                          "showOnMobile": {
+                            "type": "toggle",
+                            "displayName": "Show on mobile"
+                          }
+                        },
+                        "properties": {
+                          "text": {
+                            "type": "code",
+                            "displayName": "Text"
+                          },
+                          "loadingState": {
+                            "type": "code",
+                            "displayName": "Show loading state"
+                          }
+                        },
+                        "defaultSize": {
+                          "width": 5,
+                          "height": 30
+                        },
+                        "events": [],
+                        "styles": {
+                          "textColor": {
+                            "type": "color",
+                            "displayName": "Text Color"
+                          },
+                          "textAlign": {
+                            "type": "alignButtons",
+                            "displayName": "Align Text"
+                          },
+                          "visibility": {
+                            "type": "code",
+                            "displayName": "Visibility"
+                          },
+                          "disabledState": {
+                            "type": "code",
+                            "displayName": "Disable"
+                          }
+                        },
+                        "exposedVariables": {},
+                        "definition": {
+                          "others": {
+                            "showOnDesktop": {
+                              "value": true
+                            },
+                            "showOnMobile": {
+                              "value": false
+                            }
+                          },
+                          "properties": {
+                            "text": {
+                              "value": "Total profit gain of 12.5"
+                            },
+                            "visible": {
+                              "value": true
+                            },
+                            "loadingState": {
+                              "value": "{{false}}"
+                            }
+                          },
+                          "events": [],
+                          "styles": {
+                            "groupActions": {
+                              "value": "left"
+                            },
+                            "textColor": {
+                              "value": "#ffffffff"
+                            },
+                            "textAlign": {
+                              "value": "left"
+                            },
+                            "visibility": {
+                              "value": "{{true}}"
+                            },
+                            "disabledState": {
+                              "value": "{{false}}"
+                            }
+                          }
+                        }
+                      },
+                      "layouts": {
+                        "desktop": {
+                          "top": 60,
+                          "left": 4.716290666547233,
+                          "width": 20.960370782665667,
+                          "height": 30
+                        }
+                      },
+                      "parent": "0d607ce6-9668-4884-8522-227fe2c95454"
+                    },
+                    "5276ff86-e36b-4b05-8026-65c527937adc": {
+                      "id": "5276ff86-e36b-4b05-8026-65c527937adc",
+                      "component": {
+                        "name": "text4",
+                        "displayName": "Text",
+                        "description": "Display markdown or HTML",
+                        "component": "Text",
+                        "others": {
+                          "showOnDesktop": {
+                            "type": "toggle",
+                            "displayName": "Show on desktop"
+                          },
+                          "showOnMobile": {
+                            "type": "toggle",
+                            "displayName": "Show on mobile"
+                          }
+                        },
+                        "properties": {
+                          "text": {
+                            "type": "code",
+                            "displayName": "Text"
+                          },
+                          "loadingState": {
+                            "type": "code",
+                            "displayName": "Show loading state"
+                          }
+                        },
+                        "defaultSize": {
+                          "width": 5,
+                          "height": 30
+                        },
+                        "events": [],
+                        "styles": {
+                          "textColor": {
+                            "type": "color",
+                            "displayName": "Text Color"
+                          },
+                          "textAlign": {
+                            "type": "alignButtons",
+                            "displayName": "Align Text"
+                          },
+                          "visibility": {
+                            "type": "code",
+                            "displayName": "Visibility"
+                          },
+                          "disabledState": {
+                            "type": "code",
+                            "displayName": "Disable"
+                          }
+                        },
+                        "exposedVariables": {},
+                        "definition": {
+                          "others": {
+                            "showOnDesktop": {
+                              "value": true
+                            },
+                            "showOnMobile": {
+                              "value": false
+                            }
+                          },
+                          "properties": {
+                            "text": {
+                              "value": "Last month: -40%"
+                            },
+                            "visible": {
+                              "value": true
+                            },
+                            "loadingState": {
+                              "value": "{{false}}"
+                            }
+                          },
+                          "events": [],
+                          "styles": {
+                            "groupActions": {
+                              "value": "left"
+                            },
+                            "textColor": {
+                              "value": "#e0d1d1ff"
+                            },
+                            "textAlign": {
+                              "value": "left"
+                            },
+                            "visibility": {
+                              "value": "{{true}}"
+                            },
+                            "disabledState": {
+                              "value": "{{false}}"
+                            }
+                          }
+                        }
+                      },
+                      "layouts": {
+                        "desktop": {
+                          "top": 110,
+                          "left": 4.664144861534229,
+                          "width": 17.96919648589596,
+                          "height": 30
+                        }
+                      },
+                      "parent": "0d607ce6-9668-4884-8522-227fe2c95454"
+                    },
+                    "87bea0fc-e952-4ea4-9cc2-67155b071b5d": {
+                      "id": "87bea0fc-e952-4ea4-9cc2-67155b071b5d",
+                      "component": {
+                        "name": "text5",
+                        "displayName": "Text",
+                        "description": "Display markdown or HTML",
+                        "component": "Text",
+                        "others": {
+                          "showOnDesktop": {
+                            "type": "toggle",
+                            "displayName": "Show on desktop"
+                          },
+                          "showOnMobile": {
+                            "type": "toggle",
+                            "displayName": "Show on mobile"
+                          }
+                        },
+                        "properties": {
+                          "text": {
+                            "type": "code",
+                            "displayName": "Text"
+                          },
+                          "loadingState": {
+                            "type": "code",
+                            "displayName": "Show loading state"
+                          }
+                        },
+                        "defaultSize": {
+                          "width": 5,
+                          "height": 30
+                        },
+                        "events": [],
+                        "styles": {
+                          "textColor": {
+                            "type": "color",
+                            "displayName": "Text Color"
+                          },
+                          "textAlign": {
+                            "type": "alignButtons",
+                            "displayName": "Align Text"
+                          },
+                          "visibility": {
+                            "type": "code",
+                            "displayName": "Visibility"
+                          },
+                          "disabledState": {
+                            "type": "code",
+                            "displayName": "Disable"
+                          }
+                        },
+                        "exposedVariables": {},
+                        "definition": {
+                          "others": {
+                            "showOnDesktop": {
+                              "value": true
+                            },
+                            "showOnMobile": {
+                              "value": false
+                            }
+                          },
+                          "properties": {
+                            "text": {
+                              "value": "This month: 12.5%"
+                            },
+                            "visible": {
+                              "value": true
+                            },
+                            "loadingState": {
+                              "value": "{{false}}"
+                            }
+                          },
+                          "events": [],
+                          "styles": {
+                            "groupActions": {
+                              "value": "left"
+                            },
+                            "textColor": {
+                              "value": "#e0d1d1ff"
+                            },
+                            "textAlign": {
+                              "value": "left"
+                            },
+                            "visibility": {
+                              "value": "{{true}}"
+                            },
+                            "disabledState": {
+                              "value": "{{false}}"
+                            }
+                          }
+                        }
+                      },
+                      "layouts": {
+                        "desktop": {
+                          "top": 160,
+                          "left": 4.677122324774588,
+                          "width": 14.978022189126255,
+                          "height": 30
+                        }
+                      },
+                      "parent": "0d607ce6-9668-4884-8522-227fe2c95454"
+                    },
+                    "465edba4-437f-465b-a349-c6ab3f7ab9d5": {
+                      "id": "465edba4-437f-465b-a349-c6ab3f7ab9d5",
+                      "component": {
+                        "name": "chart5",
+                        "displayName": "Chart",
+                        "description": "Display charts",
+                        "component": "Chart",
+                        "defaultSize": {
+                          "width": 20,
+                          "height": 400
+                        },
+                        "others": {
+                          "showOnDesktop": {
+                            "type": "toggle",
+                            "displayName": "Show on desktop"
+                          },
+                          "showOnMobile": {
+                            "type": "toggle",
+                            "displayName": "Show on mobile"
+                          }
+                        },
+                        "properties": {
+                          "title": {
+                            "type": "code",
+                            "displayName": "Title"
+                          },
+                          "data": {
+                            "type": "json",
+                            "displayName": "Data"
+                          },
+                          "loadingState": {
+                            "type": "code",
+                            "displayName": "Loading State"
+                          },
+                          "markerColor": {
+                            "type": "color",
+                            "displayName": "Marker color"
+                          },
+                          "showAxes": {
+                            "type": "toggle",
+                            "displayName": "Show axes"
+                          },
+                          "showGridLines": {
+                            "type": "toggle",
+                            "displayName": "Show grid lines"
+                          },
+                          "type": {
+                            "type": "select",
+                            "displayName": "Chart type",
+                            "options": [
+                              {
+                                "name": "Line",
+                                "value": "line"
+                              },
+                              {
+                                "name": "Bar",
+                                "value": "bar"
+                              },
+                              {
+                                "name": "Pie",
+                                "value": "pie"
+                              }
+                            ]
+                          },
+                          "jsonDescription": {
+                            "type": "json",
+                            "displayName": "Json Description"
+                          },
+                          "plotFromJson": {
+                            "type": "toggle",
+                            "displayName": "Use Plotly JSON schema"
+                          }
+                        },
+                        "events": {},
+                        "styles": {
+                          "padding": {
+                            "type": "code",
+                            "displayName": "Padding"
+                          },
+                          "visibility": {
+                            "type": "code",
+                            "displayName": "Visibility"
+                          },
+                          "disabledState": {
+                            "type": "code",
+                            "displayName": "Disable"
+                          }
+                        },
+                        "exposedVariables": {
+                          "show": null
+                        },
+                        "definition": {
+                          "others": {
+                            "showOnDesktop": {
+                              "value": true
+                            },
+                            "showOnMobile": {
+                              "value": false
+                            }
+                          },
+                          "properties": {
+                            "title": {
+                              "value": "New users per month"
+                            },
+                            "markerColor": {
+                              "value": "#4dcfffff"
+                            },
+                            "showAxes": {
+                              "value": true,
+                              "fxActive": false
+                            },
+                            "showGridLines": {
+                              "value": true
+                            },
+                            "plotFromJson": {
+                              "value": "{{true}}"
+                            },
+                            "loadingState": {
+                              "value": "{{false}}"
+                            },
+                            "jsonDescription": {
+                              "value": "{\n\"data\": [\n{\n\"x\": [\n0,\n0.3571429,\n0.7142857,\n1.071429,\n1.428571,\n1.785714,\n2.142857,\n2.5,\n2.857143,\n3.214286,\n3.571429,\n3.928571,\n4.285714,\n4.642857,\n5\n],\n\"y\": [\n0.869693,\n1.088434,\n0.758308,\n1.849319,\n1.728616,\n0.9908515,\n1.519909,\n1.083975,\n0.3153477,\n0.04181056,\n-0.3400965,\n-0.1003989,\n-0.6768811,\n-0.8555722,\n-0.4287511\n],\n\"name\": \"trace 0\",\n\"type\": \"scatter\"\n},\n{\n\"x\": [\n0,\n1,\n2,\n3,\n4,\n5\n],\n\"y\": [\n1,\n0.5,\n0.7,\n-1.2,\n0.3,\n0.4\n],\n\"name\": \"trace 1\",\n\"type\": \"bar\"\n}\n],\n\"layout\": {\n\"title\": {\n\"text\": \"Click to enter Plot title\"\n},\n\"font\": {\n\"family\": \"'Open sans', verdana, arial, sans-serif\",\n\"size\": 12,\n\"color\": \"#444\"\n},\n\"showlegend\": true,\n\"autosize\": true,\n\"width\": 1152,\n\"height\": 481,\n\"xaxis\": {\n\"title\": {\n\"text\": \"Click to enter X axis title\"\n},\n\"range\": [\n-0.5,\n5.5\n],\n\"domain\": [\n0,\n1\n],\n\"type\": \"linear\",\n\"rangemode\": \"normal\",\n\"showgrid\": false,\n\"zeroline\": false,\n\"showline\": false,\n\"autotick\": true,\n\"nticks\": 0,\n\"ticks\": \"\",\n\"showticklabels\": true,\n\"tick0\": 0,\n\"dtick\": 1,\n\"ticklen\": 5,\n\"tickwidth\": 1,\n\"tickcolor\": \"#444\",\n\"tickangle\": \"auto\",\n\"tickfont\": {\n\"family\": \"\",\n\"size\": 0,\n\"color\": \"\"\n},\n\"exponentformat\": \"B\",\n\"showexponent\": \"all\",\n\"gridcolor\": \"#eee\",\n\"gridwidth\": 1,\n\"zerolinecolor\": \"#444\",\n\"zerolinewidth\": 1,\n\"linecolor\": \"#444\",\n\"linewidth\": 1,\n\"anchor\": \"y\",\n\"position\": 0,\n\"mirror\": false,\n\"overlaying\": false,\n\"autorange\": true\n},\n\"yaxis\": {\n\"title\": {\n\"text\": \"Click to enter Y axis title\"\n},\n\"range\": [\n-1.3694066111111112,\n2.018725611111111\n],\n\"domain\": [\n0,\n1\n],\n\"type\": \"linear\",\n\"rangemode\": \"normal\",\n\"showgrid\": true,\n\"zeroline\": true,\n\"showline\": false,\n\"autotick\": true,\n\"nticks\": 0,\n\"ticks\": \"\",\n\"showticklabels\": true,\n\"tick0\": 0,\n\"dtick\": 0.5,\n\"ticklen\": 5,\n\"tickwidth\": 1,\n\"tickcolor\": \"#444\",\n\"tickangle\": \"auto\",\n\"tickfont\": {\n\"family\": \"\",\n\"size\": 0,\n\"color\": \"\"\n},\n\"exponentformat\": \"B\",\n\"showexponent\": \"all\",\n\"gridcolor\": \"#eee\",\n\"gridwidth\": 1,\n\"zerolinecolor\": \"#444\",\n\"zerolinewidth\": 1,\n\"linecolor\": \"#444\",\n\"linewidth\": 1,\n\"anchor\": \"x\",\n\"position\": 0,\n\"mirror\": false,\n\"overlaying\": false,\n\"autorange\": true\n},\n\"legend\": {\n\"x\": 1.02,\n\"y\": 1,\n\"traceorder\": \"normal\",\n\"font\": {\n\"family\": \"\",\n\"size\": 0,\n\"color\": \"\"\n},\n\"bgcolor\": \"#fff\",\n\"bordercolor\": \"#444\",\n\"borderwidth\": 0,\n\"xanchor\": \"left\",\n\"yanchor\": \"top\"\n},\n\"margin\": {\n\"l\": 80,\n\"r\": 80,\n\"b\": 80,\n\"t\": 100,\n\"pad\": 0,\n\"autoexpand\": true\n},\n\"paper_bgcolor\": \"#fff\",\n\"plot_bgcolor\": \"#fff\",\n\"hovermode\": \"x\",\n\"dragmode\": \"zoom\",\n\"barmode\": \"group\",\n\"bargap\": 0.2,\n\"bargroupgap\": 0,\n\"boxmode\": \"overlay\",\n\"separators\": \".,\",\n\"hidesources\": false\n}\n}"
+                            },
+                            "type": {
+                              "value": "bar"
+                            },
+                            "data": {
+                              "value": "{{queries.airtable3.data}}"
+                            }
+                          },
+                          "events": [],
+                          "styles": {
+                            "padding": {
+                              "value": "25"
+                            },
+                            "visibility": {
+                              "value": "{{true}}"
+                            },
+                            "disabledState": {
+                              "value": "{{false}}"
+                            }
+                          }
+                        }
+                      },
+                      "layouts": {
+                        "desktop": {
+                          "top": 448,
+                          "left": 37.18526808422085,
+                          "width": 23.999999999999996,
+                          "height": 270
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "showViewerNavigation": false
+            },
+            "appId": "ca7f43de-cba0-4d21-8632-5a679f2ead9d",
+            "currentEnvironmentId": "2e6eda54-17c1-4598-a786-e1ec65046fb6",
+            "createdAt": "2023-10-23T08:07:52.701Z",
+            "updatedAt": "2023-10-23T08:12:48.471Z"
+          },
+          "dataQueries": [],
+          "dataSources": [
+            {
+              "id": "13773e1e-9d3e-469c-a798-e44d903257e0",
+              "name": "restapidefault",
+              "kind": "restapi",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "0ceb15de-7168-427b-a66e-929f9bad191d",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2023-10-23T08:07:52.761Z",
+              "updatedAt": "2023-10-23T08:07:52.761Z"
+            },
+            {
+              "id": "96337098-4802-4edd-8689-dd0e7a228b62",
+              "name": "runjsdefault",
+              "kind": "runjs",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "0ceb15de-7168-427b-a66e-929f9bad191d",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2023-10-23T08:07:52.772Z",
+              "updatedAt": "2023-10-23T08:07:52.772Z"
+            },
+            {
+              "id": "0fec87c0-8a3f-465d-9097-439be0b582e6",
+              "name": "runpydefault",
+              "kind": "runpy",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "0ceb15de-7168-427b-a66e-929f9bad191d",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2023-10-23T08:07:52.781Z",
+              "updatedAt": "2023-10-23T08:07:52.781Z"
+            },
+            {
+              "id": "8b491bca-b0eb-4a6d-9c6c-bc65117c36ef",
+              "name": "tooljetdbdefault",
+              "kind": "tooljetdb",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "0ceb15de-7168-427b-a66e-929f9bad191d",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2023-10-23T08:07:52.788Z",
+              "updatedAt": "2023-10-23T08:07:52.788Z"
+            },
+            {
+              "id": "95a696bd-a96a-417d-8d02-9c0620d9f85e",
+              "name": "workflowsdefault",
+              "kind": "workflows",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "0ceb15de-7168-427b-a66e-929f9bad191d",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2023-10-23T08:07:52.799Z",
+              "updatedAt": "2023-10-23T08:07:52.799Z"
+            }
+          ],
+          "appVersions": [
+            {
+              "id": "0ceb15de-7168-427b-a66e-929f9bad191d",
+              "name": "v1",
+              "definition": {
+                "globalSettings": {
+                  "hideHeader": false,
+                  "canvasMaxWidth": 1292,
+                  "canvasBackgroundColor": "#edeff5"
+                },
+                "homePageId": "9d414ce9-bd64-42d6-a5da-a14780ce3231",
+                "pages": {
+                  "9d414ce9-bd64-42d6-a5da-a14780ce3231": {
+                    "name": "Home",
+                    "handle": "home",
+                    "components": {
+                      "219cc82f-8f81-4289-88cc-6308bb1ca54d": {
+                        "id": "219cc82f-8f81-4289-88cc-6308bb1ca54d",
+                        "component": {
+                          "name": "image3",
+                          "displayName": "Image",
+                          "description": "Display an Image",
+                          "defaultSize": {
+                            "width": 3,
+                            "height": 100
+                          },
+                          "component": "Image",
+                          "others": {
+                            "showOnDesktop": {
+                              "type": "toggle",
+                              "displayName": "Show on desktop"
+                            },
+                            "showOnMobile": {
+                              "type": "toggle",
+                              "displayName": "Show on mobile"
+                            }
+                          },
+                          "properties": {
+                            "source": {
+                              "type": "code",
+                              "displayName": "URL"
+                            }
+                          },
+                          "events": {
+                            "onClick": {
+                              "displayName": "On click"
+                            }
+                          },
+                          "styles": {
+                            "borderType": {
+                              "type": "select",
+                              "displayName": "Border type",
+                              "options": [
+                                {
+                                  "name": "None",
+                                  "value": "none"
+                                },
+                                {
+                                  "name": "Rounded",
+                                  "value": "rounded"
+                                },
+                                {
+                                  "name": "Circle",
+                                  "value": "rounded-circle"
+                                },
+                                {
+                                  "name": "Thumbnail",
+                                  "value": "img-thumbnail"
+                                }
+                              ]
+                            },
+                            "backgroundColor": {
+                              "type": "color",
+                              "displayName": "Background color"
+                            },
+                            "padding": {
+                              "type": "code",
+                              "displayName": "Padding"
+                            },
+                            "visibility": {
+                              "type": "code",
+                              "displayName": "Visibility"
+                            },
+                            "disabledState": {
+                              "type": "code",
+                              "displayName": "Disable"
+                            }
+                          },
+                          "exposedVariables": {},
+                          "definition": {
+                            "others": {
+                              "showOnDesktop": {
+                                "value": true
+                              },
+                              "showOnMobile": {
+                                "value": false
+                              }
+                            },
+                            "properties": {
+                              "source": {
+                                "value": "https://www.freepnglogos.com/uploads/company-logo-png/file-mobile-apps-development-company-logo-25.png"
+                              },
+                              "visible": {
+                                "value": true
+                              }
+                            },
+                            "events": [],
+                            "styles": {
+                              "borderType": {
+                                "value": "none"
+                              },
+                              "padding": {
+                                "value": "0"
+                              },
+                              "visibility": {
+                                "value": "{{true}}"
+                              },
+                              "disabledState": {
+                                "value": "{{false}}"
+                              }
+                            }
+                          }
+                        },
+                        "layouts": {
+                          "desktop": {
+                            "top": 0,
+                            "left": 2.3146358114333108,
+                            "width": 4.010077519379845,
+                            "height": 70
+                          }
+                        }
+                      },
+                      "5e6dd60d-27de-464b-9d1b-d77577b0ca02": {
+                        "id": "5e6dd60d-27de-464b-9d1b-d77577b0ca02",
+                        "component": {
+                          "name": "text7",
+                          "displayName": "Text",
+                          "description": "Display markdown or HTML",
+                          "component": "Text",
+                          "others": {
+                            "showOnDesktop": {
+                              "type": "toggle",
+                              "displayName": "Show on desktop"
+                            },
+                            "showOnMobile": {
+                              "type": "toggle",
+                              "displayName": "Show on mobile"
+                            }
+                          },
+                          "properties": {
+                            "text": {
+                              "type": "code",
+                              "displayName": "Text"
+                            },
+                            "loadingState": {
+                              "type": "code",
+                              "displayName": "Show loading state"
+                            }
+                          },
+                          "defaultSize": {
+                            "width": 5,
+                            "height": 30
+                          },
+                          "events": [],
+                          "styles": {
+                            "textColor": {
+                              "type": "color",
+                              "displayName": "Text Color"
+                            },
+                            "textAlign": {
+                              "type": "alignButtons",
+                              "displayName": "Align Text"
+                            },
+                            "visibility": {
+                              "type": "code",
+                              "displayName": "Visibility"
+                            },
+                            "disabledState": {
+                              "type": "code",
+                              "displayName": "Disable"
+                            }
+                          },
+                          "exposedVariables": {},
+                          "definition": {
+                            "others": {
+                              "showOnDesktop": {
+                                "value": true
+                              },
+                              "showOnMobile": {
+                                "value": false
+                              }
+                            },
+                            "properties": {
+                              "text": {
+                                "value": "<h1>Company-wide KPI dashboard</h1>"
+                              },
+                              "visible": {
+                                "value": true
+                              },
+                              "loadingState": {
+                                "value": "{{false}}"
+                              }
+                            },
+                            "events": [],
+                            "styles": {
+                              "groupActions": {
+                                "value": "left"
+                              },
+                              "textColor": {
+                                "value": "",
+                                "fxActive": true
+                              },
+                              "textAlign": {
+                                "value": "left"
+                              },
+                              "visibility": {
+                                "value": "{{true}}"
+                              },
+                              "disabledState": {
+                                "value": "{{false}}"
+                              }
+                            }
+                          }
+                        },
+                        "layouts": {
+                          "desktop": {
+                            "top": 80,
+                            "left": 2.3327995749080883,
+                            "width": 11.994521883576484,
+                            "height": 60
+                          }
+                        }
+                      },
+                      "89641d39-ede8-4914-9fc8-df48573249d4": {
+                        "id": "89641d39-ede8-4914-9fc8-df48573249d4",
+                        "component": {
+                          "name": "button2",
+                          "displayName": "Button",
+                          "description": "Trigger actions: queries, alerts etc",
+                          "component": "Button",
+                          "defaultSize": {
+                            "width": 3,
+                            "height": 30
+                          },
+                          "others": {
+                            "showOnDesktop": {
+                              "type": "toggle",
+                              "displayName": "Show on desktop"
+                            },
+                            "showOnMobile": {
+                              "type": "toggle",
+                              "displayName": "Show on mobile"
+                            }
+                          },
+                          "properties": {
+                            "text": {
+                              "type": "code",
+                              "displayName": "Button Text"
+                            },
+                            "loadingState": {
+                              "type": "code",
+                              "displayName": "Loading State"
+                            }
+                          },
+                          "events": {
+                            "onClick": {
+                              "displayName": "On click"
+                            }
+                          },
+                          "styles": {
+                            "backgroundColor": {
+                              "type": "color",
+                              "displayName": "Background color"
+                            },
+                            "textColor": {
+                              "type": "color",
+                              "displayName": "Text color"
+                            },
+                            "visibility": {
+                              "type": "code",
+                              "displayName": "Visibility"
+                            },
+                            "disabledState": {
+                              "type": "code",
+                              "displayName": "Disable"
+                            },
+                            "borderRadius": {
+                              "type": "code",
+                              "displayName": "Border radius"
+                            }
+                          },
+                          "exposedVariables": {},
+                          "definition": {
+                            "others": {
+                              "showOnDesktop": {
+                                "value": true
+                              },
+                              "showOnMobile": {
+                                "value": false
+                              }
+                            },
+                            "properties": {
+                              "text": {
+                                "value": "Refresh"
+                              },
+                              "visible": {
+                                "value": true
+                              },
+                              "loadingState": {
+                                "value": "{{queries.airtable2.isLoading}}"
+                              }
+                            },
+                            "events": [
+                              {
+                                "eventId": "onClick",
+                                "actionId": "run-query",
+                                "message": "Hello world!",
+                                "alertType": "info",
+                                "queryName": "airtable1"
+                              },
+                              {
+                                "eventId": "onClick",
+                                "actionId": "run-query",
+                              …"
